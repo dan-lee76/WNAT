@@ -1,0 +1,82 @@
+body{
+    background-color:#F5F5F5;
+}
+.centre {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.row {
+    display: flex;
+}
+
+.imgcentre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.column {
+    flex: 14.28%;
+    padding: 5px;
+}
+.imgfirstlist{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+.imglist{
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: 30px;
+    margin-right: auto;
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+#imgrow{
+    display:flex;
+    width: 100
+    flex-wrap:nowrap;
+}
+
+#imgrow span img{
+    width:5vw;
+}
+div.text{
+    text-align: center;
+    font-family: "Calibri";
+    color: #A9A9A9
+}
+input[type=text] {
+    margin: auto;
+    width:  100%;
+    height: 69px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 26px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 60px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    }
+
+input[type=text]:focus {
+        width: 100%;
+    }
