@@ -1,6 +1,8 @@
 # Marshland-Intranet
 This is where we build the amazing INTRANET!
+## Authors
 
-Created by DAN LEE
+* **Dan Leen** - *Initial work and ideas* - [Dan](https://github.com/dan-lee76)
 
-Contributed by Henry Lunn
+See also the list of [contributors](https://github.com/dan-lee76/Marshland/contributors) who participated in this project.
+
