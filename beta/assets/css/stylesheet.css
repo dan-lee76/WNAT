@@ -70,10 +70,10 @@ body{
     filter: alpha(opacity=100); /* For IE8 and earlier */
 }
 .marquee {
-    width: 95.943%;
-	line-height: 49%;
-	background-color: #305DEA;
-	color: #FFFFFF;
+    width: calc(100% - (5% + 20px)); /* 5% for the clock and 20px for the padding */
+    line-height: 49%;
+    background-color: #305DEA;
+    color: #FFFFFF;
     font-family: "Calibri";
     white-space: nowrap;
     overflow: hidden;
@@ -94,6 +94,7 @@ body{
 .time{
     display:inline-block;
     height: 1%;
+    width: 5%;
     background-color: #305DEA;
     padding: 10px;
     border: none !important;
