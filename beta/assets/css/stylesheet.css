@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 body{
     background-color:#F5F5F5;
-    overflow-y: scroll;
+    overflow-y: auto;
     overflow-x: hidden;
     margin: 0;
 }
