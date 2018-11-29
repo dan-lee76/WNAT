@@ -1,4 +1,6 @@
-document.ondragstart = function () { return false; };
+document.ondragstart = function() {
+    return false;
+};
 
 function startTime() {
     var today = new Date();
@@ -8,11 +10,14 @@ function startTime() {
     m = checkTime(m);
     s = checkTime(s);
     document.getElementById('txt').innerHTML =
-    h + ":" + m + ":" + s;
+        h + ":" + m + ":" + s;
     var t = setTimeout(startTime, 500);
 }
+
 function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    if (i < 10) {
+        i = "0" + i
+    }; // add zero in front of numbers < 10
     return i;
 }
 
