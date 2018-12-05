@@ -1,18 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
-body {
-    background-color: #F5F5F5;
+body{
+    background-color:#F5F5F5;
     overflow-y: auto;
     overflow-x: hidden;
     margin: 0;
 }
-
 .centre {
     margin-top: 0;
     margin: auto;
     width: 50%;
     padding: 10px;
 }
-
 .left {
     position: absolute;
     width: 20%;
@@ -21,37 +19,32 @@ body {
     text-align: center;
     font-family: "Calibri";
 }
-
 .row {
     display: flex;
 }
-
-.link {
+.link{
     vertical-align: top;
     display: inline-block;
     text-align: center;
 }
 
-.caption {
+.caption{
     display: block;
     font-family: "Calibri";
     color: #A9A9A9;
     font-size: 1.0vw;
 }
-
-.imgcentre {
+.imgcentre{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+	height: 45vh;
 }
-
 .column {
     flex: 14.28%;
     padding: 5px;
 }
-
-.imglist {
+.imglist{
     width: 80%;
     opacity: 0.9;
     height: auto;
@@ -64,28 +57,21 @@ body {
     -webkit-user-select: none;
     -ms-user-select: none;
 }
-
 .imglist:hover {
     opacity: 1.0;
-    filter: alpha(opacity=100);
-    /* For IE8 and earlier */
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
-
 .imgop {
     opacity: 0.3;
-    filter: alpha(opacity=50);
-    /* For IE8 and earlier */
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 .imgop:hover {
     opacity: 1.0;
-    filter: alpha(opacity=100);
-    /* For IE8 and earlier */
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }
-
 .marquee {
-    width: calc(100% - (5% + 20px));
-    /* 5% for the clock and 20px for the padding */
+    width: calc(100% - (5% + 20px)); /* 5% for the clock and 20px for the padding */
     line-height: 49%;
     background-color: #305DEA;
     color: #FFFFFF;
@@ -93,27 +79,21 @@ body {
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
-    display: inline-block;
+    display:inline-block;
     float: right;
+    
 }
-
 .marquee p {
     display: inline-block;
     padding-left: 100%;
     animation: marquee 35s linear infinite;
 }
-
 @keyframes marquee {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-100%, 0);
-    }
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
 }
-
-.time {
-    display: inline-block;
+.time{
+    display:inline-block;
     height: 1%;
     width: 5%;
     background-color: #305DEA;
@@ -129,17 +109,16 @@ body {
     text-align: center;
     font-family: "Calibri";
 }
-
-div.text {
+div.text{
     text-align: center;
     font-family: "Calibri";
     color: #A9A9A9;
+        
 }
 
-input[type=text] {
-    /* search function */
+input[type=text] {                  /* search function */
     margin: auto;
-    width: 100%;
+    width:  100%;
     height: 69px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -152,19 +131,19 @@ input[type=text] {
     padding: 15px 20px 10px 68px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
-}
+    }
 
 input[type=text]:focus {
-    width: 100%;
-}
-
+        width: 100%;
+    }
 .button {
     background-color: #F5F5F5;
     border: none;
-    padding: 5px 5px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+    float: right;
 }
