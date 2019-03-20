@@ -3,8 +3,8 @@ A place where all the current projects are being created for MHS
 
 ## Current Projects
 
-* Intranet - *Development*
-* Easter Egg - *Idea*
+* Intranet - *Yeah its done*
+
 
 ## Authors
 
