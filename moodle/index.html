@@ -92,14 +92,24 @@ ul#countdown li .label {
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
 <script>
+    var colors = ["red", "orange", "yellow", "green", "blue", "purple"];
+var currentIndex = 0;
+
+setInterval(function() {
+	document.body.style.cssText = "background-color: " + colors[currentIndex];
+	currentIndex++;
+	if (currentIndex == undefined || currentIndex >= colors.length) {
+		currentIndex = 0;
+	}
+}, 1000);
 /* --------------------------
  * GLOBAL VARS
  * -------------------------- */
 // The date you want to count down to
-var targetDate = new Date("2019/06/14 12:30:00");   
+/*var targetDate = new Date("2019/06/14 12:30:00");   
 
 // Other date related variables
-var days;
+/*var days;
 var hrs;
 var min;
 var sec;
@@ -107,7 +117,7 @@ var sec;
 /* --------------------------
  * ON DOCUMENT LOAD
  * -------------------------- */
-$(function() {
+/*$(function() {
    // Calculate time until launch date
    timeToLaunch();
   // Transition the current countdown from 0 
@@ -123,7 +133,7 @@ $(function() {
  * FIGURE OUT THE AMOUNT OF 
    TIME LEFT BEFORE LAUNCH
  * -------------------------- */
-function timeToLaunch(){
+/*function timeToLaunch(){
     // Get the current date
     var currentDate = new Date();
 
@@ -148,7 +158,7 @@ function timeToLaunch(){
  * DISPLAY THE CURRENT 
    COUNT TO LAUNCH
  * -------------------------- */
-function countDownTimer(){ 
+/*function countDownTimer(){ 
     
     // Figure out the time to launch
     timeToLaunch();
@@ -167,7 +177,7 @@ function countDownTimer(){
  * TRANSITION NUMBERS FROM 0
    TO CURRENT TIME UNTIL LAUNCH
  * -------------------------- */
-function numberTransition(id, endPoint, transitionDuration, transitionEase){
+/*function numberTransition(id, endPoint, transitionDuration, transitionEase){
   // Transition numbers from 0 to the final number
   $({numberCount: $(id).text()}).animate({numberCount: endPoint}, {
       duration: transitionDuration,
