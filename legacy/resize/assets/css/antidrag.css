@@ -1,0 +1,22 @@
+/**
+ *   MAKE ELECTRON APP FEEL MORE NATIVE
+ *
+ *   * Prevent dragging all HTML elements, specially:
+ *   	- images
+ *   	- links (anchors)
+ *
+ *   * Prevent text selection
+ */
+
+*, *::after, *::before {
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+	cursor: default;
+    user-drag: none; 
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
