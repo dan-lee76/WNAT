@@ -20,5 +20,5 @@ See also the list of [contributors](https://github.com/dan-lee76/Marshland/contr
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 That does not mean you can steal it and put your name on it!
