@@ -1,9 +1,13 @@
-# Marshland Computing Projects
-A place where all the current projects are being created for MHS 
+# WNAT Computing Projects (Marshland)
+A place where all the current projects are being created for MHS/SHS/WNAT 
 
 ## Current Projects
 
-* Intranet - *Yeah its done*
+* Intranet - *Yeah its done* - Not any more ;)
+   * Marshalnd Intranet - *Tis Done*
+   * Springwood Intranet - *In Beta*
+   * Smithdon Intranet - *Nope*
+   * Terrington Intranet - *Nope*
 
 
 ## Authors
@@ -17,3 +21,4 @@ See also the list of [contributors](https://github.com/dan-lee76/Marshland/contr
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+That does not mean you can steal it and put your name on it!
