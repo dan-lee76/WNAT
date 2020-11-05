@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+moodle.marshlandhigh.co.uk	TRUE	/	FALSE	1999999999	MoodleSession	m0mcuhnpoa27oulr8c1tgs85mv
+
