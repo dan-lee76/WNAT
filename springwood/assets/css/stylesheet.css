@@ -35,9 +35,8 @@ body {
 .caption {
     display: block;
     font-family: "Calibri";
-    color: #25ae61;
+    color: #A9A9A9;
     font-size: 1.0vw;
-    font-weight: bold;
 }
 
 .imgcentre {
@@ -52,7 +51,7 @@ body {
     padding: 5px;
 }
 
-.imglist{
+.imglist {
     width: 80%;
     opacity: 0.9;
     height: auto;
@@ -60,8 +59,6 @@ body {
     margin-right: auto;
     user-drag: none;
     user-select: none;
-    background: #662d91;
-    border-radius: 25px;
     -moz-user-select: none;
     -webkit-user-drag: none;
     -webkit-user-select: none;
@@ -91,14 +88,13 @@ body {
     /* 5% for the clock and 20px for the padding */
     line-height: 49%;
     background-color: #662d91;
-    color: #25ae61;
+    color: #FFFFFF;
     font-family: "Calibri";
     white-space: nowrap;
     overflow: hidden;
     text-align: center;
     display: inline-block;
     float: right;
-    font-weight: bold;
 }
 
 .marquee p {
@@ -142,21 +138,18 @@ div.text {
 
 input[type=text] {
     /* search function */
-    width: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-    display: block;
+    margin: auto;
+    width: 100%;
+    height: 69px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 26px;
     font-size: 16px;
     background-color: white;
     background-image: url('../img/searchicon.png');
-    background-position: 10px 50%;
+    background-position: 10px 10px;
     background-repeat: no-repeat;
-    background-size: 30px;
-    padding: 1.5% 20px 1.5% 50px;
+    padding: 15px 20px 10px 68px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     outline: none;
